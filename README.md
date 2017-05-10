@@ -1,12 +1,10 @@
 Java Programming_Java 환경설정, 변수, 자료형	
 
 
-##JAVA
+## JAVA
 
 
-
-###특징
-
+### 특징
 
 
 1. 객체지향
@@ -18,7 +16,7 @@ Java Programming_Java 환경설정, 변수, 자료형
 
 
 
-###자바 컴파일 순서
+### 자바 컴파일 순서
 
 
 HelloWorld.java 파일을 작성하면 HelloWorld.class(바이트코드)로 변경이 되고 
@@ -27,7 +25,7 @@ HelloWorld.java 파일을 작성하면 HelloWorld.class(바이트코드)로 변�
 JVM이 class파일을 실행함
 
 
-####컴파일의 종류
+#### 컴파일의 종류
 
 
 1. JIT(Just In Time)
@@ -46,13 +44,10 @@ JVM이 class파일을 실행함
 Android Nougat 버전부터 JIT, AOT를 혼용으로 사용하고 있음
 
 
+## 변수
 
 
-
-##변수
-
-
-###Identifier
+### Identifier
 
 
 옛날에는 Variable 이라고 해서 변수라고 많이 해석되었지만 요즘에는 **Identifier**(식별자) 로 해석
@@ -66,29 +61,22 @@ Android Nougat 버전부터 JIT, AOT를 혼용으로 사용하고 있음
 예를들어 
 
 
-
 int number = 157; 일때
-
 
 
 메모리에는 157이 올라가고 number 이라는 식별자를 통해서 값을 참조함
 
 
+## 조건문
 
 
-##조건문
-
-
-
-###1. if
-
+### 1. if
 
 
 if는 **괄호(  )** 안의 값이 참일때 내용을 수행함
 
 
 괄호의 내용이 참이 아닐때는 **else** 를 통해서 수행
-
 
 
 **else if** 를 통해 비교조건을 더 추가할 수 있음
@@ -108,7 +96,7 @@ if는 **괄호(  )** 안의 값이 참일때 내용을 수행함
 
 
 
-###2. Switch 
+### 2. Switch 
 
 
 
@@ -125,10 +113,10 @@ switch() 괄호 내에 조건과 case문이 맞으면 해당 case 만 실행함
 의도적으로 연속된 동작을 해야할때는 break를 걸지 않는 경우도 있음
 
 
-##반복문
+## 반복문
 
 
-###1.for
+### 1.for
 
 
 for문의 괄호 안에는 
@@ -142,7 +130,7 @@ for(초기화값 ; 종료값 ; 증감값) 으로 구성됨
 ```
 
 
-###2. 향상된 for문
+### 2. 향상된 for문
 
 
 ```java
@@ -161,7 +149,7 @@ change = printChange(change, a);
 
 
 
-##배열
+## 배열
 
 
 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것을 "배열"이라고 한다.
