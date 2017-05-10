@@ -1,5 +1,6 @@
 Java Programming_Java 환경설정, 변수, 자료형	
 
+
 ##JAVA
 
 
@@ -93,6 +94,7 @@ if는 **괄호(  )** 안의 값이 참일때 내용을 수행함
 **else if** 를 통해 비교조건을 더 추가할 수 있음
 
 
+
 ```java
 		if (a > b) {
 			System.out.println("a가 b보다 큽니다");
@@ -105,7 +107,9 @@ if는 **괄호(  )** 안의 값이 참일때 내용을 수행함
 
 
 
+
 ###2. Switch 
+
 
 
 switch() 괄호 내에 조건과 case문이 맞으면 해당 case 만 실행함 
