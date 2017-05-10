@@ -28,6 +28,9 @@ JVM이 class파일을 실행함
 Android Nougat 버전부터 JIT, AOT를 혼용으로 사용하고 있음
 
 
+
+
+
 ##변수
 ###Identifier
 옛날에는 Variable 이라고 해서 변수라고 많이 해석되었지만 요즘에는 **Identifier**(식별자) 로 해석
@@ -44,7 +47,13 @@ int number = 157; 일때
 
 
 ##조건문
+
+
+
 ###1. if
+
+
+
 if는 **괄호(  )** 안의 값이 참일때 내용을 수행함
 
 괄호의 내용이 참이 아닐때는 **else** 를 통해서 수행
@@ -85,4 +94,27 @@ for(초기화값 ; 종료값 ; 증감값) 으로 구성됨
 			System.out.println(i);
 		}
 ```
+
+
+
+
+##배열
+같은 타입의 여러 변수를 하나의 묶음으로 다루는 것을 "배열"이라고 한다.
+
+예를들어 학급 점수를 입력해야 한다면 배열을 사용하지 않으면 위와같이 작성 할 것이다
+```java
+int score1=0, score2=0, score3=0, score4=0, score5=0 ; 
+```
+
+배열을 사용하면
+
+```java
+int[] score = new int[5];
+```
+
+위처럼 동일한 내용을 생성할 수 있다
+
+![배열예제](http://www.javachobo.com/images/p5_1.gif)
+
+
 
