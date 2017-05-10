@@ -3,11 +3,9 @@ public class BasicMain {
 
 	public static void main(String[] args) {
 
-		
-		BasicMain a = new BasicMain();
-		a.casting();
-		
-		
+		// BasicMain a = new BasicMain();
+		// a.casting();
+
 		// System.out.println("Hello World");
 		//
 		// int a = 37;
@@ -50,15 +48,38 @@ public class BasicMain {
 		// System.out.println(result);
 		//
 		//
+
+		// 관계연산자
+		int a = 1;
+		int b = 2;
+		System.out.println(a == b);
+		System.out.println(a > b);
+		System.out.println(!(a > b));
+
 	}
 
 	public void casting() {
 		String num = "1000.342";
 		int number = 1000;
-		
+
 		Double dbl = Double.parseDouble(num);
-		
+
 		System.out.println(number + dbl);
+
+	}
+
+	public void compare() {
+		int a = 2;
+		int b = 3;
+
+		if (a > b) {
+			System.out.println(true);
+		} else {
+			System.out.println(false);
+		}
+
+		// 위 if 식
+		// a>b ? true: false 와 같음 (3항연산자)
 
 	}
 
