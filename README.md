@@ -14,7 +14,7 @@ HelloWorld.java 파일을 작성하면 HelloWorld.class(바이트코드)로 변�
 
 JVM이 class파일을 실행함
 
-컴파일의 종류
+####컴파일의 종류
 
 1. JIT(Just In Time)
 
