@@ -24,5 +24,37 @@ if는 **괄호(  )** 안의 값이 참일때 내용을 수행함
 
 **else if** 를 통해 비교조건을 더 추가할 수 있음
 
+```java
+		if (a > b) {
+			System.out.println("a가 b보다 큽니다");
+		} else if (a == b) {
+			System.out.println("a와 b가 같습니다");
+		} else {
+			System.out.println("a가 b보다 작습니다");
+		}
+```
+
 
 ###2. Switch 
+switch() 괄호 내에 조건과 case문이 맞으면 해당 case 만 실행함 
+
+*단* break를 마지막부분에 넣지않으면 해당 case실행 후 탈출하지않고 하위 case까지 다 실행됨 
+
+
+
+![switch예제](http://img.c4learn.com/2012/03/How-Switch-Case-works-in-Java-Programming-language.jpg)
+
+의도적으로 연속된 동작을 해야할때는 break를 걸지 않는 경우도 있음
+
+##반복문
+###1.for
+for문의 괄호 안에는 
+for(초기화값 ; 종료값 ; 증감값) 으로 구성됨
+
+
+```java
+		for(int i = 0 ; i < 100 ; i++){
+			System.out.println(i);
+		}
+```
+
