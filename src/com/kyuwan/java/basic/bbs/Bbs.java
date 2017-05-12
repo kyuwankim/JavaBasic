@@ -1,12 +1,15 @@
 package com.kyuwan.java.basic.bbs;
 
+import java.text.SimpleDateFormat;
+
 public class Bbs {
 	public String title;
 	public String author;
-	public long date;
+	public String date;
 	public String content;
 	
 	public void initDate(){
-		date = System.currentTimeMillis();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-mm-dd");
+		date = sdf.format(System.currentTimeMillis());
 	}
 }
