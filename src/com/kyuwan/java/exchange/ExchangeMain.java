@@ -1,4 +1,4 @@
-package exchange;
+package com.kyuwan.java.exchange;
 
 public class ExchangeMain {
 
@@ -13,6 +13,7 @@ public class ExchangeMain {
 
 		int temp = money;
 		int units[] = { 5000, 1000, 500, 100, 50, 10 };
+
 
 		for (int unit : units) {
 			temp = money / unit;
