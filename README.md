@@ -178,3 +178,30 @@ int[] score = new int[5];
 
 
 
+--
+
+# 2017.05.12
+
+## Class 
+
+> **JAVA CLASSES** A class is nothing but a blueprint or a template for creating different objects which defines its properties and behaviors. Java class objects exhibit the properties and behaviors defined by its class.
+
+즉, 유사한 특징을 지닌 객체들의 속성을 묶어놓은 집합체 
+
+> A class can contain fields and methods to describe the behavior of an object.
+ 
+클래스는 정보를 담을 수 있는 필드와 메소드의 집합입니다 
+
+```java
+public class Cube {
+
+	int length;
+	int breadth;
+	int height;
+	public int getVolume() {
+		return (length * breadth * height);
+	}
+}
+```
+
+
