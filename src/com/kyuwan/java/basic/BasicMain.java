@@ -10,10 +10,10 @@ public class BasicMain {
 
 		Scanner sc = new Scanner(System.in);
 		
+		while(true){
 		String words = sc.nextLine();
-		
 		System.out.println(words);
-		
+		}
 		
 		
 //		Bbs bbs = new Bbs();
