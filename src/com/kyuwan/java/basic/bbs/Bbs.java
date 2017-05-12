@@ -5,4 +5,8 @@ public class Bbs {
 	public String author;
 	public long date;
 	public String content;
+	
+	public void initDate(){
+		date = System.currentTimeMillis();
+	}
 }

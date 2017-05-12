@@ -31,10 +31,11 @@ public class BasicMain {
 			System.out.println("작성자 : " + bbs.author);
 			System.out.println("내용 : " + bbs.content);
 
+		    bbs.initDate();
 			datas.add(bbs);
 		}
-		
-		for( Bbs item : datas){
+
+		for (Bbs item : datas) {
 			System.out.print(item.title);
 			System.out.print(" ");
 			System.out.println(item.date);
