@@ -8,6 +8,8 @@ public class BasicMain {
 
 	public static void main(String[] args) {
 		Bbs bbs = new Bbs();
+		Bbs datas[] = new Bbs[100];
+		
 		Scanner sc = new Scanner(System.in);
 
 		String words = sc.nextLine();
@@ -27,6 +29,7 @@ public class BasicMain {
 		System.out.println("작성자 : "+bbs.author);
 		System.out.println("내용 : "+bbs.content);
 	
+		datas[0] = bbs;
 
 		// Bbs bbs = new Bbs();
 		// bbs.title = "안녕하세요";
