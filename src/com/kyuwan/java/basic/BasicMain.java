@@ -4,9 +4,10 @@ public class BasicMain {
 
 	public static void main(String[] args) {
 
-		String className = "안드로이드 스쿨";
-		int classSize = 20;
-		int studentCount = 15;
+	 Class class1 = new Class();
+	 class1.name = "ADS";
+	 class1.size = 20;
+	 class1.studentCount = 15;
 
 		String student1Name = "홍길동";
 		int student1Age = 15;
